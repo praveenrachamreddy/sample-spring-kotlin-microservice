@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: sample-spring-kotlin-microservice
-        image: quay.io/praveenrachamreddy/ci-pipeline
+        image: quay.io/praveenrachamreddy/ci-pipeline:1.5.0
         ports:
         - containerPort: 8080
